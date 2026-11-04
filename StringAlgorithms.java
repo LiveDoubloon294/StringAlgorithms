@@ -99,7 +99,7 @@ public class StringAlgorithms {
                if (text.charAt(g) == uniqueChar){
                   
                   text = text.substring(0, g) + text.substring(g + 1, text.length());
-                  System.out.println(text);
+                  //System.out.println(text);
                }
             }
             i = 0;
