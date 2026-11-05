@@ -100,6 +100,7 @@ public class StringAlgorithms {
                   
                   text = text.substring(0, g) + text.substring(g + 1, text.length());
                   //System.out.println(text);
+                  g--;
                }
             }
             i = 0;
@@ -146,7 +147,7 @@ public class StringAlgorithms {
         // System.out.println(detectPalindrome("racecar"));
    
       System.out.println("\nTesting firstUniqueChar:");
-      System.out.println(firstUniqueChar("super man super man hot dog and baloney"));
+      System.out.println(firstUniqueChar("xywnhdiioyekajsbdfmxcbvsajgwbgnhd"));
         // Example:
         // System.out.println(firstUniqueChar("swiss"));
    }
